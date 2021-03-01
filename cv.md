@@ -40,3 +40,22 @@ function calculateHanoi( disksNumber, turnsSpeed ){
 ```
 
 ## EXPERIENCE
+
+## EDUCATION
+
+*2013-2014*  
+**Branch of the BNTU "Institute of Improvement of Professional Skills and Staff Retraining on New Directions of Engineering**  
+Web Design and Computer Graphics
+
+*2006-2011*  
+**The Academy of Public Administration under the aegis of the President of the Republic of Belarus**  
+Faculty of Innovative Training
+
+**Сourses:**  
+[HTML Academy] Professional Javascript Level 1  
+[HTML Academy] Professional HTML & CSS Level 1  
+[HTML Academy] Professional HTML & CSS Level 2
+
+## ENGLISH
+
+Elementary

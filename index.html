@@ -3,98 +3,105 @@
   <head>
     <meta charset="utf-8">
     <title>CV Ivanova Anastasiya</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="header">
-      <img class="header__photo" src="img/photo.jpg" alt="photo of Ivanova Anastasiya">
-      <h1 class="header__title">Ivanova Anastasiya</h1>
-    </header>
-    <main>
-      <section class="contacts">
-        <h2 class="contacts__title">Contacts</h2>
-        <dl class="contacts__desc-list">
-          <dt class="contacts__term">Address:</dt>
-          <dd class="contacts__desc">Russia, Saint-Petersburg</dd>
-          <dt class="contacts__term">Email:</dt>
-          <dd class="contacts__desc">tkacheva123@gmail.com</dd>
-          <dt class="contacts__term">Phone number:</dt>
-          <dd class="contacts__desc">+7 (981) 157-76-03</dd>
-        </dl>
-      </section>
+    <div class="container">
 
-      <section class="profile">
-        <h2 class="profile__title">Profile</h2>
-        <p class="profile__text">I very want to realize myself in a new profession. For this I'm actively self-educate. I study on courses. Therefore I came to RS School.</p>
-        <p class="profile__text">I like the creative component, the opportunity to choose different implementation options.</p>
-      </section>
+      <header class="header">
+        <img class="header__photo" src="img/photo.jpg" alt="photo of Ivanova Anastasiya" width="140" height="140">
+        <h1 class="header__title">Ivanova Anastasiya</h1>
+      </header>
 
-      <section class="skills">
-        <h2 class="skills__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__item">HTML</li>
-          <li class="skills__item">CSS</li>
-          <li class="skills__item">Javascript</li>
-          <li class="skills__item">Saas</li>
-          <li class="skills__item">methodology BEM</li>
-          <li class="skills__item">Grunt</li>
-          <li class="skills__item">Adobe Photoshop</li>
-          <li class="skills__item">Git</li>
-        </ul>
-      </section>
+      <main>
+        <section class="contacts">
+          <h2 class="contacts__title">Contacts</h2>
+          <dl class="contacts__desc-list">
+            <dt class="contacts__term">Address:</dt>
+            <dd class="contacts__desc">Russia, Saint-Petersburg</dd>
+            <dt class="contacts__term">Email:</dt>
+            <dd class="contacts__desc">tkacheva123@gmail.com</dd>
+            <dt class="contacts__term">Phone number:</dt>
+            <dd class="contacts__desc">+7 (981) 157-76-03</dd>
+          </dl>
+        </section>
 
-      <section class="code">
-        <h2 class="code__title">Code example</h2>
-        <pre class="code__source">
-          <code>
-            function calculateHanoi( disksNumber, turnsSpeed ){
-              let turns = 2**disksNumber - 1;
-              let seconds = Math.floor(turns / turnsSpeed * 3600);
+        <section class="profile">
+          <h2 class="profile__title">Profile</h2>
+          <p class="profile__text">I very want to realize myself in a new profession. For this I'm actively self-educate. I study on courses. Therefore I came to RS School.</p>
+          <p class="profile__text">I like the creative component, the opportunity to choose different implementation options.</p>
+        </section>
 
-              return {
-                turns,
-                seconds,
-              }
-            };
-          </code>
-        </pre>
-      </section>
+        <section class="skills">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Javascript</li>
+            <li class="skills__item">Saas</li>
+            <li class="skills__item">methodology BEM</li>
+            <li class="skills__item">Grunt</li>
+            <li class="skills__item">Adobe Photoshop</li>
+            <li class="skills__item">Git</li>
+          </ul>
+        </section>
 
-      <section class="experience">
-        <h2 class="experience__title">Experience</h2>
-      </section>
+        <section class="code">
+          <h2 class="code__title">Code example</h2>
+          <pre class="code__source">
+            <code>
+              function calculateHanoi( disksNumber, turnsSpeed ){
+                let turns = 2**disksNumber - 1;
+                let seconds = Math.floor(turns / turnsSpeed * 3600);
 
-      <section class="education">
-        <h2 class="education__title">Education</h2>
-        <dl class="education__desc-list">
-          <dt class="education__term">2013-2014</dt>
-          <dd class="education__desc">
-            <p class="education__text">Branch of the BNTU "Institute of Improvement of Professional Skills and Staff Retraining on New Directions of Engineering</p>
-            <p class="education__text">Web Design and Computer Graphics</p>
-          </dd>
-          <dt class="education__term">2006-2011</dt>
-          <dd class="education__desc">
-            <p class="education__text">The Academy of Public Administration under the aegis of the President of the Republic of Belarus</p>
-            <p class="education__text">Faculty of Innovative Training</p>
-          </dd>
-          <dt class="education__term">Сourses:</dt>
-          <dd class="education__desc">
-            <ul class="education__list">
-              <li class="education__item">[HTML Academy] Professional Javascript Level 1</li>
-              <li class="education__item">[HTML Academy] Professional HTML & CSS Level 1</li>
-              <li class="education__item">[HTML Academy] Professional HTML & CSS Level 2</li>
-            </ul>
-          </dd>
-        </dl>
-      </section>
+                return {
+                  turns,
+                  seconds,
+                }
+              };
+            </code>
+          </pre>
+        </section>
 
-      <section class="english">
-        <h2 class="english__title">English</h2>
-        <p class="english__text">Elementary</p>
-      </section>
+        <section class="experience">
+          <h2 class="experience__title">Experience</h2>
+        </section>
 
-    </main>
-    <footer>
-      <a class="github-link" href="https://github.com/Nastya-Ivanova">Github</a>
-    </footer>
+        <section class="education">
+          <h2 class="education__title">Education</h2>
+          <dl class="education__desc-list">
+            <dt class="education__term">2013-2014</dt>
+            <dd class="education__desc">
+              <p class="education__text">Branch of the BNTU "Institute of Improvement of Professional Skills and Staff Retraining on New Directions of Engineering</p>
+              <p class="education__text">Web Design and Computer Graphics</p>
+            </dd>
+            <dt class="education__term">2006-2011</dt>
+            <dd class="education__desc">
+              <p class="education__text">The Academy of Public Administration under the aegis of the President of the Republic of Belarus</p>
+              <p class="education__text">Faculty of Innovative Training</p>
+            </dd>
+            <dt class="education__term">Сourses:</dt>
+            <dd class="education__desc">
+              <ul class="education__list">
+                <li class="education__item">[HTML Academy] Professional Javascript Level 1</li>
+                <li class="education__item">[HTML Academy] Professional HTML & CSS Level 1</li>
+                <li class="education__item">[HTML Academy] Professional HTML & CSS Level 2</li>
+              </ul>
+            </dd>
+          </dl>
+        </section>
+
+        <section class="english">
+          <h2 class="english__title">English</h2>
+          <p class="english__text">Elementary</p>
+        </section>
+
+      </main>
+
+      <footer>
+        <a class="github-link" href="https://github.com/Nastya-Ivanova">Github</a>
+      </footer>
+
+    </div>
   </body>
 </html>

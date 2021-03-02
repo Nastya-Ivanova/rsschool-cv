@@ -190,6 +190,7 @@ img{
   width: 400px;
 
   margin: 0;
+  padding-left: 15px;
 
   background-color: rgba(238, 238, 238, 0.5);
 }

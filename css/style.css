@@ -241,3 +241,33 @@ img{
 .education__item{
   padding-bottom: 8px;
 }
+
+.github-link{
+  position: relative;
+  display: block;
+
+  padding: 15px 0 15px 32px;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #5A6C7F;
+
+  background-color: #F6FBFA;
+}
+
+.github-link::after{
+  content: '';
+
+  position: absolute;
+  top:12px;
+  left:5px;
+
+  width: 23px;
+  height: 23px;
+
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+  background-image: url('../img/github.svg');
+}

@@ -184,13 +184,30 @@ img{
   font-weight: 400;
 }
 
-.code__source{
-  width: 400px;
-
+.code__figure{
   margin: 0;
+}
+
+.code__source{
+  margin: 0;
+  margin-bottom: 10px;
   padding-left: 15px;
 
   background-color: rgba(238, 238, 238, 0.5);
+}
+
+.code__figcaption{
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.code__figcaption summary{
+  padding-bottom: 5px;
+}
+
+.code__figcaption a{
+  padding-left: 15px;
 }
 
 .education__desc-list{

@@ -204,6 +204,8 @@ img{
 
 .code__figcaption summary{
   padding-bottom: 5px;
+
+  cursor: pointer;
 }
 
 .code__figcaption a{

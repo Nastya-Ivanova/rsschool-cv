@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>CV Ivanova Anastasiya</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <header class="header">
+        <img class="header__photo" src="img/photo.jpg" alt="photo of Ivanova Anastasiya" width="140" height="140">
+        <h1 class="header__title">Ivanova Anastasiya</h1>
+      </header>
+
+      <main>
+        <section class="contacts">
+          <h2 class="contacts__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item"><span>Address: </span>Russia, Saint-Petersburg</li>
+            <li class="contacts__item"><span>Email: </span>tkacheva123@gmail.com</li>
+            <li class="contacts__item"><span>Phone number: </span>+7 (981) 157-76-03</li>
+          </ul>
+        </section>
+
+        <section class="profile">
+          <h2 class="profile__title">Profile</h2>
+          <p class="profile__text">I very want to realize myself in a new profession. For this I'm actively self-educate. I study on courses. Therefore I came to RS School.</p>
+          <p class="profile__text">I like the creative component, the opportunity to choose different implementation options.</p>
+        </section>
+
+        <section class="skills">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Javascript</li>
+            <li class="skills__item">Saas</li>
+            <li class="skills__item">methodology BEM</li>
+            <li class="skills__item">Grunt</li>
+            <li class="skills__item">Adobe Photoshop</li>
+            <li class="skills__item">Git</li>
+          </ul>
+        </section>
+
+        <section class="code">
+          <h2 class="code__title">Code example</h2>
+          <figure class="code__figure">
+            <pre class="code__source">
+              <code>
+  function calculateHanoi( disksNumber, turnsSpeed ){
+    let turns = 2**disksNumber - 1;
+    let seconds = Math.floor(turns / turnsSpeed * 3600);
+
+    return {
+      turns,
+      seconds,
+    }
+  };
+              </code>
+            </pre>
+            <figcaption class="code__figcaption">
+              <details>
+                <summary>Task BasicJS - Tower of Hanoi</summary>
+                  <a href="https://github.com/AlreadyBored/basic-js">Link to task</a>
+                </details>
+            </figcaption>
+          </figure>
+        </section>
+
+
+        <section class="experience">
+          <h2 class="experience__title">Experience</h2>
+        </section>
+
+        <section class="education">
+          <h2 class="education__title">Education</h2>
+          <dl class="education__desc-list">
+            <dt class="education__term">2013-2014</dt>
+            <dd class="education__desc">
+              <p class="education__text">Branch of the BNTU "Institute of Improvement of Professional Skills and Staff Retraining on New Directions of Engineering</p>
+              <p class="education__text education__text--italic">Web Design and Computer Graphics</p>
+            </dd>
+          </dl>
+          <dl class="education__desc-list">
+            <dt class="education__term">2006-2011</dt>
+            <dd class="education__desc">
+              <p class="education__text">The Academy of Public Administration under the aegis of the President of the Republic of Belarus</p>
+              <p class="education__text education__text--italic">Faculty of Innovative Training</p>
+            </dd>
+          </dl>
+          <dl class="education__desc-list">
+            <dt class="education__term education__term--bold">Сourses:</dt>
+            <dd class="education__desc">
+              <ul class="education__list">
+                <li class="education__item">[HTML Academy] Professional Javascript Level 1</li>
+                <li class="education__item">[HTML Academy] Professional HTML & CSS Level 1</li>
+                <li class="education__item">[HTML Academy] Professional HTML & CSS Level 2</li>
+              </ul>
+            </dd>
+          </dl>
+        </section>
+
+        <section class="english">
+          <h2 class="english__title">English</h2>
+          <p class="english__text">Elementary</p>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+        <div class="footer__link">
+          <a class="footer__link-item github-link" href="https://github.com/Nastya-Ivanova">Github</a>
+          <a class="footer__link-item rsschool-link" href="https://rs.school/js/"></a>
+          <a class="footer__link-item youtube-link" href="https://youtu.be/31KSghyL8B0"></a>
+        </div>
+        <span class="footer__text">2021</span>
+      </footer>
+
+    </div>
+  </body>
+</html>
